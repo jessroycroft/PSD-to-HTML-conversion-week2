@@ -1,0 +1,241 @@
+// About Section
+.about {
+	padding-top: 90px;
+}
+
+.about p span {
+	font-size: 1.8rem;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+
+}
+
+.about .text-wrapper {
+	width: 50%;
+	float: left;
+}
+
+.about .image-wrapper {
+	width: 40%;
+	float: right;
+	img {
+		width: 100%;
+	}
+}
+
+// Services Section
+
+.services-wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.service {
+	float: left;
+	width: 30%;
+	padding-right: 2%;
+}
+
+.service h4 {
+	font-size: 1.8rem;
+	letter-spacing: 2px;
+}
+
+.service p {
+	font-weight: 300;
+}
+
+
+// 	Portfolio Section
+
+.gallery {
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+.gallery-item {
+	width: 30%;
+	float: left;
+	padding: 5px;
+	position: relative;
+	img {
+		max-width: 100%;
+		display: block;
+	}
+}
+
+.overlay {
+	position: absolute;
+	background-color: rgba(123, 238, 199, 0.9);
+	padding: 1%;
+	margin: 0;
+	top: 5px;
+	right: 5px;
+	left: 5px;
+	bottom: 5px;
+	border: 2px solid black;
+	opacity: 0;
+	transition: all 0.6s;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.overlay h5 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+.overlay h5, .overlay p {
+	text-transform: uppercase;
+}
+
+.overlay .heart-wrapper {
+	text-align: left;
+}
+
+.heart-wrapper p {
+	margin: 0;
+}
+
+.plus-sign p {
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.description-wrapper {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.description-wrapper h5, .description-wrapper p {
+	margin: 0;
+}
+
+// Email Section
+
+aside.newsletter-header {
+	float: left;
+	background: $teal;
+	width: 50%;
+	height: 325px;
+	padding: 101px 83px;
+	margin-bottom: 100px;
+	span {
+		font-weight: 700;
+	}
+	p {
+		font-size: 3rem;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+}
+
+
+
+aside.email-form {
+	float: left;
+	width: 50%;
+	height: 325px;
+	padding: 70px 64px;
+	background-image: url(images/home/clock.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+form {
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+	padding: 67px;
+}
+
+.home-page-email {
+	width: 100%;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+input[type=submit] {	
+	-webkit-appearance: none;
+	outline: none;
+	background: $teal;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.6rem;
+	border: none;
+}
+
+.home-page-submit {
+	width: 50%;
+	position: relative;
+	left: 61px;
+	top: 20px;
+}
+
+// --Contact Page--
+
+.contact-wrapper {
+	width: 20%;
+	float: left;
+}
+
+.contact-item {
+	width: 100%;
+	img {
+		float: left;
+	}
+	.contact-text-wrapper {
+		padding-left: 30px;
+	}
+	span {
+		text-transform: uppercase;
+	}
+	span.contact-item-header {
+		font-weight: 700;
+	}
+}
+
+	// Contact Form
+.input-column {
+	width: 30%;
+	float: left;
+	margin: 10px;
+}
+
+form.contact-page-form {
+	padding: 0;
+}
+
+.contact-page-email, .contact-page-name, .contact-page-message, .contact-page-subject, .contact-page-submit {
+	width: 100%;
+	padding: 10px;
+	text-transform: uppercase;
+	&:focus {
+		outline: 1px solid $darkgrey;
+	}
+}
+
+.contact-page-submit {
+	width: 100%;
+}
+
+.contact-page-form input, .contact-page-form textarea {
+	margin: 10px;
+}
+
+.contact-page-message {
+	padding: 10px 10px 64px 10px;
+}
+
+
+
+
+

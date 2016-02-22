@@ -1,0 +1,72 @@
+footer {
+	clear: both;
+	background-color: $grey;
+}
+
+footer p span {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+}
+
+.footer-wrapper {
+	 padding: 4%;
+	 max-width: 1400px;
+}
+
+.footer-third {
+	width: 33.3%;
+	float: left;
+}
+
+.address p, .contact p {
+	margin-top: 0;
+}
+
+.address p, .contact p, .copyright-info p {
+	color: #787878;
+}
+
+.address span, .contact span {
+	color: #111111;
+}
+
+
+
+// Footer Left
+
+.address {
+
+}
+
+// Footer Middle
+
+.middle-inner-wrapper {
+	margin: 0 auto;
+	position: relative;
+	left: 20%;
+}
+.social-media {
+	position: relative;
+	li {
+		float: left;
+		width: 10%;
+		}
+	}
+
+
+.copyright-info p {
+	color: #787878;
+
+}
+
+// Footer Right
+
+.contact {
+	position: relative;
+}
+
+.contact-inner-wrapper {
+	position: relative;
+	left: 60%;
+}

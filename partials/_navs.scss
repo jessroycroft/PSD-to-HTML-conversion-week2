@@ -1,0 +1,60 @@
+// Global nav styling
+
+nav li {
+	float: left;
+	a {
+		padding: 20px;
+	}
+}
+
+// Header nav
+
+.header-nav {
+	padding-bottom: 20px;
+}
+
+.main-navigation {
+	float: right;
+	a {
+		font-size: 1.4rem;
+	}
+}
+
+.logo-wrapper {
+	float: left;
+}
+
+// Portfolio Nav
+
+.portfolio-nav {
+	padding: 0 20px;
+	margin-bottom: 10px;
+	a {
+		padding-bottom: 0;
+		padding-top: 0;
+		font-size: 1.8rem;
+	}
+}
+
+// Blog Nav
+
+.number-nav {
+	float: right;
+	padding-right: 100px;
+	ul li {
+		font-size: 1.8rem;
+		font-family: 'Lekton', sans-serif;
+		padding: 2px;
+		a {
+			border: 1px solid $grey;
+			padding: 10px 20px;
+			background: none;
+			&:hover {
+				background: $teal;
+				color: white;
+			}
+		}
+	}
+}
+
+
